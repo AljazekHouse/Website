@@ -26,11 +26,11 @@ body {
 
 .text1{
     color: white;
-    font-size: 5em;
+    font-size: 4.5em;
     font-weight: 700;
     letter-spacing: 8px;
     margin-bottom: 20px;
-    background: #003f3f;
+    background: #008b8b;
     position: relative;
     text-transform: uppercase;
     animation: text 3s 1;
@@ -43,7 +43,7 @@ body {
 
 @keyframes text {
     0%{
-        color: #003f3f;
+        color: #008b8b;
         margin-bottom: -40px;
     }
     30% {
