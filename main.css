@@ -47,7 +47,7 @@ body {
         margin-bottom: -40px;
     }
     30% {
-        letter-spacing: 25px;
+        letter-spacing: 15px;
         margin-bottom: -40px
     } 
     85% {
@@ -89,7 +89,22 @@ body {
     }
     
     .text2{
-        font-size: 1em;
+        font-size: 0.8em;
         font-weight: 400;
+    }
+
+    @keyframes text {
+        0%{
+            color: #008b8b;
+            margin-bottom: -20px;
+        }
+        30% {
+            letter-spacing: 10px;
+            margin-bottom: -20px
+        } 
+        85% {
+            letter-spacing: 8px;
+            margin-bottom: -20px;
+        }
     }
 }
