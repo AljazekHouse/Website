@@ -56,9 +56,29 @@ body {
     }
 }
 
+
+
 @media (max-width: 800px) {
     .text1{
         font-size: 2em;
+        font-weight: 700;
+        letter-spacing: 8px;
+        margin-bottom: 20px;
+        background: #008b8b;
+        position: relative;
+        text-transform: uppercase;
+        animation: text 3s 1;
+    }
+    
+    .text2{
+        font-size: 1em;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 700px) {
+    .text1{
+        font-size: 1.5em;
         font-weight: 700;
         letter-spacing: 8px;
         margin-bottom: 20px;
